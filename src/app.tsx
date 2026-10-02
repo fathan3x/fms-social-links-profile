@@ -14,7 +14,7 @@ export function App() {
     <main
       className={cn(
         style["bg-new-gray-900"],
-        "w-screen h-screen flex items-center justify-center text-white",
+        "w-screen h-screen flex items-center justify-center text-white p-6",
       )}
       style={{ fontFamily: "Inter Variable" }}
     >
@@ -41,7 +41,9 @@ export function App() {
             London, United Kingdom
           </p>
         </div>
-        <p className="text-sm">"Front-end developer and avid reader."</p>
+        <p className="text-sm text-center">
+          "Front-end developer and avid reader."
+        </p>
         <div className="w-full space-y-4 px-2 pb-2">
           {links.map((link) => (
             <button
